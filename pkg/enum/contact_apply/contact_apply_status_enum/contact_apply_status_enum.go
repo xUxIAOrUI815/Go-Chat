@@ -1,4 +1,4 @@
-package contact_apply_enum
+package contact_apply_status_enum
 
 const (
 	PENDING = iota
