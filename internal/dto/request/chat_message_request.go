@@ -9,8 +9,8 @@ type ChatMessageRequest struct {
 	SendName   string `json:"send_name"`
 	SendAvatar string `json:"send_avatar"`
 	ReceiveId  string `json:"receive_id"`
-	FileSize   int64  `json:"file_size"`
-	FileType   int8   `json:"file_type"`
+	FileSize   string `json:"file_size"`
+	FileType   string `json:"file_type"`
 	FileName   string `json:"file_name"`
 	AVdata     string `json:"avdata"` // 音频视频数据
 }
