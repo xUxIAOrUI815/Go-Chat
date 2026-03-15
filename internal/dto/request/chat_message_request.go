@@ -1,0 +1,16 @@
+package request
+
+type ChatMessageRequest struct {
+	SessionId  string `json:"session_id"`
+	Type       int8   `json:"type"`
+	Content    string `json:"content"`
+	Url        string `json:"url"`
+	SendId     string `json:"send_id"`
+	SendName   string `json:"send_name"`
+	SendAvatar string `json:"send_avatar"`
+	ReceiveId  string `json:"receive_id"`
+	FileSize   int64  `json:"file_size"`
+	FileType   int8   `json:"file_type"`
+	FileName   string `json:"file_name"`
+	AVdata     string `json:"avdata"` // 音频视频数据
+}
